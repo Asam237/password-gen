@@ -9,7 +9,9 @@ export default class Index extends Document {
       <Html
         className={cn(PoppinsUiDisplay.variable, PoppinsUiDisplay.className)}
       >
-        <Head />
+        <Head>
+          <title>Password Generator By ASAM</title>
+        </Head>
         <DefaultSeo
           title={"Password Generator By ASAM"}
           description={"Password Generator By ASAM"}
